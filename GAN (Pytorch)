@@ -135,6 +135,7 @@ def discriminator():
     Build and return a PyTorch model implementing the architecture above.
     """
     model = nn.Sequential(
+        F
         nn.Linear(784,256),
         nn.LeakyReLU(0.01),
         nn.Linear(256,256),
